@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<!--
+	Multiverse by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+
+    {% include 'includes/header.html' %}
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			{% include 'includes/navigation.html' %}
+				
+			{{ content | safe }}
+
+			{% include 'includes/footer.html' %}
+
+		</div>
+
+		<!-- Scripts -->
+        {% include 'includes/scripts.html' %}
+
+	</body>
+
+</html>
